@@ -4,3 +4,70 @@
   background-attachment: fixed;
   height: 100vh;
 }
+
+@media only screen and (max-width: 768px){
+  .jumbotron .container {
+    padding: 100px 0;
+  }
+  .jumbotron h1 {
+    font-size: 5em;
+    text-align: center;
+  }
+  #copy {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .jumbotron p {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .btn-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jumbotron .btn-group button, .jumbotron .btn-group a {
+    font-size: 1em;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px){
+
+  .jumbotron h1 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 375px){
+
+  .navbar-brand {
+    font-size: 1em;
+  }
+
+  .jumbotron h1 {
+    font-size: 2em;
+  }
+
+  .jumbotron p {
+    font-size: 1em;
+  }
+
+  .jumbotron .btn-group button, .jumbotron .btn-group a {
+    font-size: 0.8em;
+  }
+  .btn-outline-info {
+    font-size: 1em;
+  }
+  .dropup button {
+    display: none;
+  }
+
+  #copy {
+    font-size: 0.7em;
+  }
+}
